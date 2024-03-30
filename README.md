@@ -12,7 +12,7 @@ Only available for Windows, tested with Loupedeck Live.
 ## Configuration
 
 - Create the following path & file in your home folder:
-  `\AppData\Local\Loupedeck\Plugins\AWTRIX3\config.json`
+  `%AppData%\Local\Loupedeck\Plugins\AWTRIX3\config.json`
 - Copy & Paste the example into the file
 - Replace host IP address
 

@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWTRIX3Plugin", "AWTRIX3Plugin\AWTRIX3Plugin.csproj", "{FD18F2C2-125D-4785-AD82-577B8F3DFD89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD18F2C2-125D-4785-AD82-577B8F3DFD89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD18F2C2-125D-4785-AD82-577B8F3DFD89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD18F2C2-125D-4785-AD82-577B8F3DFD89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD18F2C2-125D-4785-AD82-577B8F3DFD89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D985BA86-220D-45DC-904F-54B52E46F90E}
+	EndGlobalSection
+EndGlobal

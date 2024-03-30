@@ -3,7 +3,7 @@ using System.Timers;
 
 using Loupedeck;
 
-using static Loupedeck.AWTRIX3Plugin.HttpService;
+using static Loupedeck.Awtrix3Plugin.HttpService;
 
 public class MirrorCommand : PluginDynamicCommand
 {

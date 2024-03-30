@@ -3,7 +3,7 @@
     using System;
     using System.IO;
 
-    using Loupedeck.AWTRIX3Plugin;
+    using Loupedeck.Awtrix3Plugin;
 
     public class AwtrixConfig
     {

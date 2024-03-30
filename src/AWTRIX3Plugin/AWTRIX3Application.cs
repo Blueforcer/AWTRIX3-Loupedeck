@@ -1,4 +1,4 @@
-namespace Loupedeck.AWTRIX3Plugin
+namespace Loupedeck.Awtrix3Plugin
 {
     using System;
 

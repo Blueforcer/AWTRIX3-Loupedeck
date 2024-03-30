@@ -1,4 +1,4 @@
-namespace Loupedeck.AWTRIX3Plugin
+namespace Loupedeck.Awtrix3Plugin
 {
     using System;
 
@@ -6,7 +6,7 @@ namespace Loupedeck.AWTRIX3Plugin
 
     // This class contains the plugin-level logic of the Loupedeck plugin.
 
-    public class AWTRIX3Plugin : Plugin
+    public class Awtrix3Plugin : Plugin
     {
         // Gets a value indicating whether this is an API-only plugin.
         public override Boolean UsesApplicationApiOnly => true;
@@ -18,7 +18,7 @@ namespace Loupedeck.AWTRIX3Plugin
         private readonly String Host;
 
         // Initializes a new instance of the plugin class.
-        public AWTRIX3Plugin()
+        public Awtrix3Plugin()
         {
             // Initialize the plugin log.
             PluginLog.Init(this.Log);
@@ -34,12 +34,12 @@ namespace Loupedeck.AWTRIX3Plugin
 
             if (Config == null)
             {
-                this.OnPluginStatusChanged(Loupedeck.PluginStatus.Error, "Configuration could not be read.", "https://github.com/schmic/Loupedeck-HomeAssistant", "Help");
+                this.OnPluginStatusChanged(Loupedeck.PluginStatus.Error, "Configuration could not be read.", "https://github.com/Blueforcer/AWTRIX3-Loupedeck", "Help");
                 return;
             }
             else if (Config.Host.IsNullOrEmpty())
             {
-                this.OnPluginStatusChanged(Loupedeck.PluginStatus.Error, "Configuration is missing url.", "https://github.com/schmic/Loupedeck-HomeAssistant", "Help");
+                this.OnPluginStatusChanged(Loupedeck.PluginStatus.Error, "Configuration is missing url.", "https://github.com/Blueforcer/AWTRIX3-Loupedeck", "Help");
                 return;
             }
             HttpService.Host = Config.Host;

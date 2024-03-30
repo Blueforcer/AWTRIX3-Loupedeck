@@ -1,4 +1,4 @@
-namespace Loupedeck.AWTRIX3Plugin
+namespace Loupedeck.Awtrix3Plugin
 {
     using System;
 
@@ -18,7 +18,7 @@ namespace Loupedeck.AWTRIX3Plugin
 
         protected override BitmapImage GetCommandImage(String actionParameter, PluginImageSize imageSize)
         {
-            var bitmapImage = EmbeddedResources.ReadImage("Loupedeck.AWTRIX3Plugin.Icons.NextApp.png");
+            var bitmapImage = EmbeddedResources.ReadImage("Loupedeck.Awtrix3Plugin.Icons.NextApp.png");
             return bitmapImage;
         }
 

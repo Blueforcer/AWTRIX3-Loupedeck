@@ -4,7 +4,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Loupedeck.AWTRIX3Plugin
+namespace Loupedeck.Awtrix3Plugin
 {
     public class HttpService
     {

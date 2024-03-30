@@ -6,13 +6,13 @@
 type: plugin4
 
 # Name of the plugin.
-name: AWTRIX3
+name: Awtrix3
 
 # Name that is displayed in the Loupedeck configuration application.
 displayName: AWTRIX 3
 
 # Name of the plugin library file.
-pluginFileName: AWTRIX3Plugin.dll
+pluginFileName: Awtrix3Plugin.dll
 
 # Plugin version.
 version: 1.0
@@ -34,7 +34,7 @@ pluginFolderWin: win
 
 # Location of plugin files on macOS (relative to the plugin base directory).
 # This parameter is required to support Mac.
-pluginFolderMac: mac
+#pluginFolderMac: mac
 
 # List of supported devices.
 supportedDevices:
@@ -70,7 +70,7 @@ licenseUrl: https://opensource.org/licenses/MIT
 # URL of the support page where the users can send improvement suggestions and report bugs.
 # The URL is shown in Loupedeck Marketplace. The page can be for example a GitHub issues page.
 # NOTE: This setting is recommended when publishing the plugin in Loupedeck Marketplace.
-#supportPageUrl: https://github.com/myusername/myplugin/issues
+supportPageUrl: https://github.com/Blueforcer/AWTRIX3-Loupedeck
 
 # URL of the plugin homepage. The URL is shown in Loupedeck Marketplace.
-#homePageUrl: https://github.com/myusername/myplugin
+homePageUrl: https://github.com/Blueforcer/AWTRIX3-Loupedeck
